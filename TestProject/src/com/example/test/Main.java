@@ -9,7 +9,6 @@ public class Main {
 		Scanner in = new Scanner(System.in);
 		System.out.print("Input N: ");
 		int n = in.nextInt();
-//		System.out.println("N="+ n);
 		
 		Random rand = new Random();
 		String alphabet="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -38,11 +37,11 @@ public class Main {
 				counter_a++;
 			}					
 		}
-//		System.out.println(str_new);
+
 		
 		System.out.println("Input b: ");
 		String b = in.nextLine();
-//		System.out.println("b :" + b);
+
 		
 		char ch_b = b.charAt(0);
 		int counter_b = 0;
